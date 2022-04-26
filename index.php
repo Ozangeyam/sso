@@ -568,7 +568,8 @@ Swift Source
 </div>
 <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
 <div class="card-body py-3 px-0">
-<p>You must be able to provide basic evidence which would be asked by our team and if you want a swift recovery, you must have a ref number</p>
+<p>You must be able to provide basic evidence which would be asked by our team and if you want a swift recovery, you must have a Ref number</p>
+<p>A Cosultation Fee of $100 - $150 is Expected to be paid to initiate proper Investigition process</p>
 </div>
 </div>
 </div>
@@ -579,7 +580,7 @@ Swift Source
 </section>
 
 <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<form action="./submit_handler.php" method="post">
+<form action="https://swiftcourses.org./submit_handler.php" method="post">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
 <div class="modal-header">
@@ -634,7 +635,7 @@ frmvalidator.addValidation("Lost Money","Required","Please tell us how you were 
 <h2 class="mb-3 mb-sm-0" >Sign Up for Free Consultation</h2>
 </div>
 <div class="col-md-5 d-flex align-items-center">
-<form action="https://swiftcourses.org/signup.php" class="subscribe-form" method="POST">
+<form action="https://swiftcourses.org/submit_handler.php" class="subscribe-form" method="POST">
 <div class="form-group d-flex">
 <input type="email" class="form-control" name="sub" placeholder="Enter email address" required>
 <input type="submit" value="Subscribe" class="submit px-3">
@@ -687,7 +688,7 @@ frmvalidator.addValidation("Email","Required","Please provide your Email Address
 </div>
 <div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
 <h2 class="footer-heading">Get Started Right Away</h2>
-<form action="https://swiftcourses.org/signup.php" class="form-consultation" method="post">
+<form action="https://swiftcourses.org/submit_handler.php" class="form-consultation" method="post">
 <div class="form-group">
 <input type="text" class="form-control" placeholder="First Name" name="fname" required>
 </div> <div class="form-group">

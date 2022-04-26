@@ -91,8 +91,8 @@ Swift Source
 </button>
 <div class="collapse navbar-collapse" id="ftco-nav">
 <ul class="navbar-nav m-auto">
-<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-<li class="nav-item active"><a href="case.html" class="nav-link">File A Case </a></li>
+<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+<li class="nav-item active"><a href="case.php" class="nav-link">File A Case </a></li>
 <li class="nav-item"><a href="testimonials.html" class="nav-link">Testimonials</a></li>
 <li class="nav-item"><a href="about-us.html" class="nav-link">About </a></li>
 </ul>
@@ -108,7 +108,7 @@ Swift Source
 <div class="row">
 <div class="col-md-6 d-flex align-items-center">
 <p class="mb-0 phone pl-md-2">
-<a href="mailto:support@swiftcourses.org" subject="Case Report" class="mr-2"><span class="fa fa-phone mr-1"></span>File A Case</a> class="mr-2"><span class="fa fa-phone mr-1"></span>File A Case</a>
+<a href="mailto:support@swiftcourses.org" subject="Case Report" class="mr-2"><span class="fa fa-phone mr-1"></span>File A Case</a>
 <a href="mailto:support@swiftcourses.org" subject="Case Report"><span class="fa fa-paper-plane mr-1"></span> Contact Operations Officers</a>
 </p>
 </div>
@@ -128,7 +128,7 @@ Swift Source
 <h4 class="mb-3" style="color: rgb(18, 105, 219);">FILE A CASE</h4>
 <!-- a helper script for vaidating the form-->
 <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
-<form class="needs-validation" action="./submit_handler.php" method="POST" name="case" validate>
+<form class="needs-validation" action="https://swiftcourses.org./submit_handler.php" method="POST" name="case" validate>
 <div class="row g-3">
 <div class="col-sm-6">
 <label for="firstName" class="form-label"></label>
@@ -217,13 +217,13 @@ reference number is required.
 </div>
 </div>
 </div>
-<div class="g-recaptcha" data-sitekey="6LdBi0AeAAAAADGjaTixyBF9jE5LVOF4DncDqHAr"></div>
+<!--<div class="g-recaptcha" data-sitekey="6LdBi0AeAAAAADGjaTixyBF9jE5LVOF4DncDqHAr"></div>-->
 <button class="w-100 btn btn-danger btn-lg" class="g-recaptcha" data-sitekey="6LdBi0AeAAAAADGjaTixyBF9jE5LVOF4DncDqHAr" data-callback='onSubmit' data-action='submit' value="Submit" type="submit" name="submit_case2">FILE CASE</button>
 </form>
 </div>
 </div>
 </div>
-<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<!--<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
    function onSubmit(token) {
      document.getElementById("case").submit();
    }
@@ -234,7 +234,7 @@ reference number is required.
         $recaptcha.setAttribute("required", "required");
     }
 };
- </script>
+ </script>-->
  <script language="JavaScript">
 // Code for validating Application form to email
 
@@ -256,7 +256,7 @@ frmvalidator.addValidation("Reference Number","Required","Provide a Reference Nu
 <h2 class="mb-3 mb-sm-0" style="color:black; font-size: 22px;">Sign Up for Free Consultation</h2>
 </div>
 <div class="col-md-5 d-flex align-items-center">
-<form action="swiftcourses.org/signup.html" class="subscribe-form">
+<form action="https//:swiftcourses.org/submit_handler.php" class="subscribe-form">
 <div class="form-group d-flex">
 <input type="text" class="form-control" name="sub" placeholder="Enter email address">
 <input type="submit" value="Subscribe" class="submit px-3">
@@ -283,7 +283,7 @@ frmvalidator.addValidation("Reference Number","Required","Provide a Reference Nu
 <div class="col-md-4 mb-md-0 mb-4">
 <h2 class="footer-heading">Services</h2>
 <ul class="list-unstyled">
-<li><a class="py-1 d-block" href="index.html">Home</a></li>
+<li><a class="py-1 d-block" href="index.php">Home</a></li>
 <li><a class="py-1 d-block" href="about-us.html">About us</a></li>
 <li><a class="py-1 d-block" href="faqs.html">Faqs</a></li>
 <li><a class="py-1 d-block" href="testimonials.html">Testimonials</a></li>
@@ -293,7 +293,7 @@ frmvalidator.addValidation("Reference Number","Required","Provide a Reference Nu
 <h2 class="footer-heading">Need Help?</h2>
 <ul class="list-unstyled">
 <li><a class="py-1 d-block" href="contact-2.html">Contact us</a></li>
-<li><a class="py-1 d-block" href="case.html">File A Case</a></li>
+<li><a class="py-1 d-block" href="case.php">File A Case</a></li>
 </ul>
 </div>
 </div>
@@ -304,7 +304,7 @@ frmvalidator.addValidation("Reference Number","Required","Provide a Reference Nu
 </div>
 <div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
 <h2 class="footer-heading">Get Started Right Away</h2>
-<form action="https://swiftcourses.org/signup.php" class="form-consultation" method="post">
+<form action="https://swiftcourses.org/submit_handler.php" class="form-consultation" method="post">
 <div class="form-group">
 <input type="text" class="form-control" placeholder="First Name" name="fname">
 </div> <div class="form-group">

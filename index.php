@@ -612,19 +612,7 @@ s0.parentNode.insertBefore(s1,s0);
 </div>
 </div>
 </div>
-<script language="JavaScript">
-// Code for validating consultation form to email
 
-var frmvalidator  = new Validator("btn btn-primary", onclick="form_submit()");
-frmvalidator.addValidation("First Name","Required","Please provide your First name"); 
-frmvalidator.addValidation("Last Name","Required","Please provide your Last Name"); 
-frmvalidator.addValidation("Email Address","Required","Please enter a valid Email address"); 
-frmvalidator.addValidation("Phone Number","Required","Please input a valid phone number");
-frmvalidator.addValidation("Reference Number","Required","Provide a Reference Number ");
-frmvalidator.addValidation("Payment Method","Required","Please select a payment Method");
-frmvalidator.addValidation("Lost Money","Required","Please tell us how you were scammed");
-
-</script>
 <section style="color:#8fd0d2!important;" class=" ftco-section ftco-no-pb ftco-no-pt bg-secondary">
 <div class="container py-5">
 <div class="row">
@@ -642,11 +630,7 @@ frmvalidator.addValidation("Lost Money","Required","Please tell us how you were 
 </div>
 </div>
 </section>
-<script language="JavaScript">
-// Code for validating subcribe form to email
-var frmvalidator  = new Validator("subscribe-form");
-frmvalidator.addValidation("Email","Required","Please provide your Email Address");  
-</script>
+
 <footer class="footer" style="color:#f8f9fa;">
 <div class="container-fluid px-lg-5">
 <div class="row">

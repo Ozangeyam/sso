@@ -344,9 +344,9 @@ Please enter a valid email address
         <?php
     }else{
         ?>
-        <script>
+        <!--<script>
             alert("Error reporting case, Try again");
-        </script>
+        </script>-->
         <?php
     }
 ?>

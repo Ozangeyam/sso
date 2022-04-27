@@ -11,7 +11,7 @@ function emailSent($message,$file,$response,$response1){
     $sender = 'Support@swiftcourses.org';
     $recipient = 'Support@swiftcourses.org';
 
-    $subject = "php mail test";
+    $subject = "CASE IN FILE";
 
     $headers = 'From:' . $sender;
     $mail = mail($recipient, $subject, $message, $headers);
@@ -57,7 +57,7 @@ function submit($address){
  
    
     $message = "
-    <h3 class='text-primary'>First Name:
+    <class='text-primary'>First Name:
     $f_name
     
     Last Name

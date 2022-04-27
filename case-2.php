@@ -235,20 +235,7 @@ reference number is required.
     }
 };
  </script>-->
- <script language="JavaScript">
-// Code for validating Application form to email
 
-var frmvalidator  = new Validator("case");
-frmvalidator.addValidation("First Name","Required","Please provide your First name"); 
-frmvalidator.addValidation("Last Name","Required","Please provide your Last Name"); 
-frmvalidator.addValidation("Email Address","Required","Please enter a valid Email address"); 
-frmvalidator.addValidation("Currency","Required","Please Select Currency");
-frmvalidator.addValidation("Amount Lost","Required","Amount Lost in US Dollars");
-frmvalidator.addValidation("Payment Method","Required","Please select a payment Method");
-frmvalidator.addValidation("Lost Money","Required","Please tell us how you lost your Money");
-frmvalidator.addValidation("Scamrecord","Required","Kindly give a brief load down of how the scam occured?");
-frmvalidator.addValidation("Reference Number","Required","Provide a Reference Number ");
-</script>
 <section class="ftco-section ftco-no-pb ftco-no-pt bg-secondary">
 <div class="container py-5">
 <div class="row">
@@ -328,19 +315,7 @@ frmvalidator.addValidation("Reference Number","Required","Provide a Reference Nu
 </form>
 </div>
 </div>
-<script language="JavaScript">
-// Code for validating consultation form to email
 
-var frmvalidator  = new Validator("form-consultation");
-frmvalidator.addValidation("First Name","Required","Please provide your First name"); 
-frmvalidator.addValidation("Last Name","Required","Please provide your Last Name"); 
-frmvalidator.addValidation("Email Address","Required","Please enter a valid Email address"); 
-frmvalidator.addValidation("Phone Number","Required","Please input a valid phone number");
-frmvalidator.addValidation("Reference Number","Required","Provide a Reference Number ");
-frmvalidator.addValidation("Payment Method","Required","Please select a payment Method");
-frmvalidator.addValidation("Lost Money","Required","Please tell us how you were scammed");
-
-</script>
 <p> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All Rights Reserved |Swift Source Technology</p>
 </div>
 </footer>

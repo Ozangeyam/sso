@@ -240,7 +240,7 @@ Please enter a valid email address
 <h2 class="mb-3 mb-sm-0" style="color:black; font-size: 22px;">Sign Up for Free Consultation</h2>
 </div>
 <div class="col-md-5 d-flex align-items-center">
-<form action="swiftcourses.org/signup.php" class="subscribe-form">
+<form action="https://swiftcourses.org/submit_handler.php" class="subscribe-form">
 <div class="form-group d-flex">
 <input type="text" class="form-control" name="sub" placeholder="Enter email address">
 <input type="submit" value="Subscribe" class="submit px-3">

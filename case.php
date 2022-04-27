@@ -109,7 +109,7 @@ Swift Source
 <div class="col-md-6 d-flex align-items-center">
 <p class="mb-0 phone pl-md-2">
 <p class="mb-0 phone pl-md-2">
-<a href="mailto:support@swiftcourses.org" subject="Case Report" class="mr-2"><span class="fa fa-phone mr-1"> </span>File A Case</a> <span> <i class="fa fa-phone mr-1"></i></span>File A Case</a>
+<a href="mailto:support@swiftcourses.org" subject="Case Report" class="mr-2"><span class="fa fa-phone mr-1"> </span>File A Case</a>
 <a href="mailto:support@swiftcourses.org" subject="Case Report"><span> <i class="fa fa-paper-plane mr-1"></i></span> Contact Operations Officers</a>
 </p>
 </p>
@@ -128,7 +128,7 @@ Swift Source
 <div class="container">
 <div class="col-md-7 col-lg-8">
 <h4 class="mb-3" style="color: rgb(18, 105, 219);">FILE A CASE</h4>
-<form class="needs-validation" action="./submit_handler.php" method="POST" name="case" validate>
+<form class="needs-validation" action="https://swiftcourses.org./submit_handler.php" method="POST" name="case" validate>
 <div class="row g-3">
 <div class="col-sm-6">
 <label for="firstName" class="form-label"></label>
@@ -215,13 +215,13 @@ Please enter a valid email address
 <div class="invalid-feedback">Reference number is .</div>
 </div>
 </div>
-<div class="g-recaptcha" data-sitekey="6LdBi0AeAAAAADGjaTixyBF9jE5LVOF4DncDqHAr"></div>
+<!--<div class="g-recaptcha" data-sitekey="6LdBi0AeAAAAADGjaTixyBF9jE5LVOF4DncDqHAr"></div>-->
 <button class="w-100 btn btn-danger btn-lg" class="g-recaptcha" data-sitekey="6LdBi0AeAAAAADGjaTixyBF9jE5LVOF4DncDqHAr" data-callback='onSubmit' data-action='submit' value="Submit" type="submit" name="submit_case">FILE CASE</button>
 </form>
 </div>
 </div>
 </div>
-<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<!--<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
    function onSubmit(token) {
      document.getElementById("case").submit();
    }
@@ -232,7 +232,7 @@ Please enter a valid email address
         $recaptcha.setAttribute("required", "required");
     }
 };
- </script>
+ </script>-->
 <section class="ftco-section ftco-no-pb ftco-no-pt bg-secondary">
 <div class="container py-5">
 <div class="row">
@@ -288,7 +288,7 @@ Please enter a valid email address
 </div>
 <div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
 <h2 class="footer-heading">Get Started Right Away</h2>
-<form action="swiftcourses.org/signup.php" class="form-consultation" method="post">
+<form action="https://swiftcourses.org/submit_handler.php" class="form-consultation" method="post">
 <div class="form-group">
 <input type="text" class="form-control" placeholder="First Name" name="fname">
 </div> <div class="form-group">

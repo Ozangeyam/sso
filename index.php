@@ -84,10 +84,7 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script--> 
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 <div class="container">
-<a class="navbar-brand" href="#" style="font-size:18px;">
- <img src="w.png" height="30" max-width="50%" class="img-fluid" alt="">
-Swift Source
-</a>
+<a class="navbar-brand" href="#" style="font-size:18px;"><img src="w.png" height="30" max-width="50%" class="img-fluid" alt="">Swift Source</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="fa fa-bars"></span> Menu
 </button>

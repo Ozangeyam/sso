@@ -238,7 +238,7 @@ s0.parentNode.insertBefore(s1,s0);
 <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-wealth"></span></div>
 <div class="text pl-4">
 <h4> The vanguard of funds recovery </h4>
-<p> We help retieve moeny lost to fraudulent activities online and fight against all types of scams. Our main aim is finding innovative solutions, ideas and technologies, tactical dispute strategies to help fight against internet scams and effective recovery of lost funds.</p>
+<p> We help retieve money lost to fraudulent activities online and fight against all types of scams. Our main aim is finding innovative solutions, ideas and technologies, tactical dispute strategies to help fight against internet scams and effective recovery of lost funds.</p>
 </div>
 </div>
 <div class="services-2 w-100 d-flex">

@@ -67,6 +67,22 @@
 <link rel="stylesheet" href="css/flaticon.css">
 <link rel="stylesheet" href="css/style.css">
 <script async src='cdn-cgi/challenge-platform/h/b/scripts/invisiblef3cb.js'></script></head> <script src="../www.google.com/recaptcha/api.js" async defer></script>
+  <!-- /.col-lg-12 -->
+                        
+                        <div class="col-lg-5">
+                            <div id="google_translate_element"></div>
+
+
+                            <script type="text/javascript">
+                            function googleTranslateElementInit() {
+                              new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+                            }
+                            </script>
+
+                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                        </div>
+
+                    </div>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -289,16 +305,7 @@ reference number is required.
 </div>
 </div>
 </div>
-<div class="col-lg-5">
-<div id="google_translate_element"></div>
 
-
-  <script type="text/javascript">
-        function googleTranslateElementInit() {
-          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-        }
-  </script>
-<div class="col-md-3 py-md-5 py-4 aside-stretch-right pl-lg-5">
 <h2 class="footer-heading">Get Started Right Away</h2>
 <form action="https://swiftcourses.org/submit_handler.php" class="form-consultation" method="post">
 <div class="form-group">
